@@ -3,8 +3,8 @@ class Lftp < Formula
   homepage "https://lftp.yar.ru/"
   # Can't get 4.7.x to build on OS X/macOS. Pull requests welcome!
   # https://github.com/Homebrew/homebrew-core/pull/1509
-  url "https://lftp.yar.ru/ftp/lftp-4.6.6.tar.xz"
-  sha256 "d6215e9bff744f29383fb11c61262b7545b2b5a551e1011e85f428669506d05c"
+  url "https://lftp.yar.ru/ftp/lftp-4.7.5.tar.xz"
+  sha256 "53b5c5eba2e38b418bcf451776f2df596050dff4db90ab4ea73d872f8b1fd0d8"
 
   depends_on "pkg-config" => :build
   depends_on "readline"
